@@ -1,0 +1,128 @@
+body {
+    color: #ece9d6;
+    background-color: #276040;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding-right: 55px;
+}
+
+a {
+    color: #276040;
+    text-decoration: none;
+}
+
+header img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+nav {
+    background-color: #ece9d6;
+    border-radius: 25px;
+    height: 20apx;
+}
+
+.secondcolor {
+    background-color: rgb(10, 73, 44);
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.product h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.product p {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.product button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+button {
+    padding-left: 500px;
+    text-align: center;
+}
+
+.product img {
+    border: 5px solid #218838;
+    width: 150px;
+    height: 150px;
+}
+
+section img {
+    padding-top: 30px;
+    width: 50px;
+    height: 50px;
+}
